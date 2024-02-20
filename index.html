@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+
+    <!-- link to tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="bg-white mt-8 mx-20 flex justify-between items-center">
+      <!-- Left Section -->
+      <section class="flex items-center">
+          <!-- Logo -->
+          <div class="mr-4">
+              <img src="logo.png" alt="Logo" class="h-8">
+          </div>
+          <!-- Search Area -->
+          <div>
+              <input type="text" placeholder="Search" class="px-4 py-2 bg-white rounded-lg focus:outline-none focus:bg-gray-100 border border-blue-900 focus:border-pink-700 placeholder-blue-900 focus:placeholder-pink-700 border-2">
+          </div>
+      </section>
+      
+      <!-- Right Section -->
+      <section class="flex items-center">
+          <!-- Home Link -->
+          <a href="#" class="text-[#2B2D94] font-bold hover:text-[#5C53E9] mr-4">Home</a>
+          <!-- About Link -->
+          <a href="/pages/about.html" class="text-[#2B2D94] hover:text-[#5C53E9] mr-4">About</a>
+          <!-- Services Link -->
+          <a href="pages/service.html" class="text-[#2B2D94] hover:text-[#5C53E9]">Services</a>
+      </section>
+    </nav>
+  </header>
+
+  <main class="mx-20">
+    <!-- hero section -->
+    <section class="relative p-8 my-12 h-screen bg-cover bg-center rounded-lg" style="background-image: url('/asset/bghero1.png');">
+      <section class="relative z-20 py-[15%] px-8">
+        <section class="text-5xl font-bold mb-4 text-[#EE2EB8]">
+          Let's <br>
+          Explore with <span class="text-[#5C53E9]">K.Galaxy</span>
+        </section>
+        <p class="text-white mb-8">
+          Hello this is our Space you guys can come to join our space <br>
+          willing to see you guys Hello this is our Space you guys can <br>
+          come to join our space willing to see you guys
+        </p>
+        <div class="flex gap-4">
+          <!-- Button with Pink Background -->
+          <button class="bg-pink-500 text-white rounded-lg px-4 py-2 focus:outline-none focus:bg-pink-700">Sign Up</button>
+          
+          <!-- Button with Pink Border -->
+          <button class="border border-pink-500 text-pink-500 rounded-lg border-2 px-4 py-2 focus:outline-none focus:border-pink-700">Login</button>
+        </div>
+      </section>
+    </section>
+    
+    <!-- content tell what we will provide -->
+    <section class="text-5xl font-bold py-20 text-[#2B2D94] mb-8">
+      What we Provide
+    </section>
+
+    <!-- Mini Card Section -->
+    <!-- display 4 -->
+    <div class=" gap-6 flex justify-between">
+      <!-- card 1 -->
+      <div class="gap-6">
+        <div class="card relative group h-80 w-64">
+          <img src="https://i.pinimg.com/236x/d4/61/c1/d461c19c5e959f7f38d0306cec4e0a0a.jpg" alt="Background 1" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-10 transition-opacity duration-300" />
+          <img src="https://i.pinimg.com/236x/8f/95/21/8f952146acd6a33ccc6cee225e4e9877.jpg" alt="Background 2" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          <div class="absolute inset-0 text-white text-3xl font-bold z-30 group-hover:opacity-0 transition flex flex-col items-center justify-center">
+            <p>Space</p>
+          </div>
+          <div class="absolute inset-0 text-white text-center p-8 z-30 opacity-0 group-hover:opacity-100 transition">
+            <p class="text-3xl font-bold">Space</p>
+            <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit alias laudantium nihil omnis eligendi quos repellat architecto,</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="gap-6">
+        <div class="card relative group h-80 w-64">
+          <img src="https://i.pinimg.com/236x/d4/61/c1/d461c19c5e959f7f38d0306cec4e0a0a.jpg" alt="Background 1" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-10 transition-opacity duration-300" />
+          <img src="https://i.pinimg.com/236x/8f/95/21/8f952146acd6a33ccc6cee225e4e9877.jpg" alt="Background 2" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          <div class="absolute inset-0 text-white text-3xl font-bold z-30 group-hover:opacity-0 transition flex flex-col items-center justify-center">
+            Suit
+          </div>
+          <div class="absolute inset-0 text-white text-center p-8 z-30 opacity-0 group-hover:opacity-100 transition">
+            <p class="text-3xl font-bold">Suit</p>
+            <p class="pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quos delectus </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="gap-6\">
+        <div class="card relative group h-80 w-64">
+          <img src="https://i.pinimg.com/236x/d4/61/c1/d461c19c5e959f7f38d0306cec4e0a0a.jpg" alt="Background 1" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-10 transition-opacity duration-300" />
+          <img src="https://i.pinimg.com/236x/8f/95/21/8f952146acd6a33ccc6cee225e4e9877.jpg" alt="Background 2" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          <div class="absolute inset-0 text-white text-3xl font-bold z-30 group-hover:opacity-0 transition flex flex-col items-center justify-center">
+            S-Ship
+          </div>
+          <div class="absolute inset-0 text-white text-center p-8 z-30 opacity-0 group-hover:opacity-100 transition">
+            <p class="text-3xl font-bold">S-Ship</p>
+            <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magnam dignissimos porro reprehenderit nulla a? Quisquam, ab, </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 4 -->
+      <div class="gap-6">
+        <div class="card relative group h-80 w-64">
+          <img src="https://i.pinimg.com/236x/d4/61/c1/d461c19c5e959f7f38d0306cec4e0a0a.jpg" alt="Background 1" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-10 transition-opacity duration-300" />
+          <img src="https://i.pinimg.com/236x/8f/95/21/8f952146acd6a33ccc6cee225e4e9877.jpg" alt="Background 2" class="absolute rounded-lg inset-0 w-64 h-full object-cover z-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          <div class="absolute inset-0 text-white text-3xl font-bold z-30 group-hover:opacity-0 transition flex flex-col items-center justify-center">
+            Assist
+          </div>
+          <div class="absolute inset-0 text-white text-center p-8 z-30 opacity-0 group-hover:opacity-100 transition">
+            <p class="text-3xl font-bold">Assist</p>
+            <p class="pt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat earum mollitia itaque possimus facere perferendis incidunt quibusdam dolorem, beatae, </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- content tell what we will provide -->
+    <section class="text-5xl font-bold pt-20 text-[#2B2D94] my-10">
+      Best Place to Explore with Us
+    </section>
+
+    <!-- first big card -->
+    <section class="flex h-screen my-20">
+      <!-- Left Column -->
+      <div class="w-1/2 flex flex-col justify-center p-8 space-y-4 bg-white">
+        <h1 class="text-2xl font-bold text-[#2B2D94] text-3xl">Explore The Galaxy</h1>
+        <p class="text-indigo-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="flex gap-4">
+          <button class="bg-indigo-800 text-white rounded-lg px-4 py-2 focus:outline-none focus:bg-pink-700">Explore</button>
+        </div>
+      </div>
+      <!-- Right Column -->
+      <div class="w-1/2 relative flex items-center justify-center rounded-lg">
+        <img src="asset/bcardbd1.png" alt="Descriptive Image" class="absolute rounded-lg top-0 left-0 h-full w-full object-cover object-top transition duration-300 ease-in-out transform hover:scale-105">
+        <img src="asset/bcardbh1.png" alt="Second Descriptive Image" class="absolute rounded-lg top-0 left-0 h-full w-full object-cover object-top opacity-0 transition duration-300 ease-in-out transform hover:opacity-100">
+      </div>
+    </section>
+
+    <!-- second big card -->
+    <section class="flex h-screen my-20">
+      <!-- Left Column -->
+      <div class="w-1/2 relative flex items-center justify-center rounded-lg">
+        <img src="asset/bcardbd2.png" alt="Descriptive Image" class="absolute rounded-lg top-0 left-0 h-full w-full object-cover object-top transition duration-300 ease-in-out transform hover:scale-105">
+        <img src="asset/bcardbh2.png" alt="Second Descriptive Image" class="absolute rounded-lg top-0 left-0 h-full w-full object-cover object-top opacity-0 transition duration-300 ease-in-out transform hover:opacity-100">
+      </div>
+      <!-- Right Column -->
+      <div class="w-1/2 flex flex-col justify-center p-8 space-y-4 bg-white">
+        <h1 class="text-2xl font-bold text-[#EE2EB8] text-3xl">Explore The Galaxy</h1>
+        <p class="text-pink-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="flex gap-4">
+          <button class="bg-pink-500 text-white rounded-lg px-4 py-2 focus:outline-none focus:bg-pink-700">Explore</button>
+        </div>
+      </div>
+    </section>
+  
+    <!-- third big card -->
+    <div class="flex h-screen my-20">
+      <!-- Left Column -->
+      <div class="w-1/2 flex flex-col justify-center p-8 space-y-4 bg-white">
+        <h1 class="text-2xl font-bold text-[#2B2D94] text-3xl">Travel Planing</h1>
+        <p class="text-indigo-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="flex gap-4">
+          <button class="bg-indigo-800 text-white rounded-lg px-4 py-2 focus:outline-none focus:bg-pink-700">Explore</button>
+        </div>
+      </div>
+      <!-- Right Column -->
+      <div class="w-1/2 relative flex items-center justify-center rounded-lg">
+        <img src="asset/bcardbd3.png" alt="Descriptive Image" class="absolute rounded-lg top-0 left-0 h-full w-full object-cover object-top transition duration-300 ease-in-out transform hover:scale-105">
+        <img src="asset/bcardbh3.png" alt="Second Descriptive Image" class="absolute rounded-lg top-0 left-0 h-full w-full object-cover object-top opacity-0 transition duration-300 ease-in-out transform hover:opacity-100">
+      </div>
+    </div>
+  </main>
+
+  <!-- footer section -->
+  <footer class="bg-indigo-800 py-8 mx-20 mt-8 rounded-lg">
+    <div class="container px-20 flex justify-evenly gap-16">
+        <!-- Section 1 -->
+        <div class="w-1/4">
+            <h1 class="text-white text-lg mb-4">Exploring More Universes with K.Galaxy</h1>
+            <div class="text-gray-300 text-sm">
+                <p>
+                  Hi! My name is Pol Sokkhann and i’m an expert in Exploring new Galaxy.
+                   Experience for 30 exploring to other universes and
+                    greeting a lot of aliens.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Section 2 -->
+        <div class="w-1/4 ">
+          <h1 class="text-white text-lg mb-4">Consult</h1>
+          <div class="text-gray-300 text-sm flex justify-center flex-col">
+            <p>About</p>
+            <p>Carrer</p>
+            <p>FAQs</p>
+            <p>Team</p>
+        </div>
+        </div>
+        
+        <!-- Section 3 -->
+        <div class="w-1/4 ">
+          <h1 class="text-white text-lg mb-4">Consult</h1>
+          <div class="text-gray-300 text-sm flex justify-center flex-col">
+            <p>Universe</p>
+            <p>Galaxy</p>
+            <p>Planet</p>
+            <p>Star</p>
+        </div>
+        </div>
+        
+        <!-- Section 4 -->
+        <div class="w-1/4">
+          <h1 class="text-white text-lg mb-4">Subscribe</h1>
+          <div class="grid grid-cols-1 gap-4">
+            <!-- Name Input -->
+            <div>
+                <input type="text" placeholder="Name" class="border bg-indigo-800 border-pink-500 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-pink-700 border-2 placeholder-pink-500">
+            </div>
+            
+            <!-- Email Input -->
+            <div>
+                <input type="email" placeholder="Email" class="border bg-indigo-800 border-pink-500 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-pink-700 border-2 placeholder-pink-500">
+            </div>
+            
+            <!-- Subscribe Button -->
+            <div>
+                <button class="bg-pink-500 text-white rounded-lg px-4 py-2 w-full focus:outline-none focus:bg-pink-700">Subscribe</button>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+  </footer> 
+
+</body>
+</html>

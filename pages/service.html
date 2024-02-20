@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page</title>
+    <!-- link to tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="bg-white mt-8 mx-20 flex justify-between items-center">
+      <!-- Left Section -->
+      <section class="flex items-center">
+          <!-- Logo -->
+          <div class="mr-4">
+              <img src="logo.png" alt="Logo" class="h-8">
+          </div>
+          <!-- Search Area -->
+          <div>
+              <input type="text" placeholder="Search" class="px-4 py-2 bg-white rounded-lg focus:outline-none focus:bg-gray-100 border border-blue-900 focus:border-pink-700 placeholder-blue-900 focus:placeholder-pink-700 border-2">
+          </div>
+      </section>
+      
+      <!-- Right Section -->
+      <section class="flex items-center">
+          <!-- Home Link -->
+          <a href="../index.html" class="text-[#2B2D94] hover:text-[#5C53E9] mr-4">Home</a>
+          <!-- About Link -->
+          <a href="../pages/about.html" class="text-[#2B2D94] hover:text-[#5C53E9] mr-4">About</a>
+          <!-- Services Link -->
+          <a href="#" class="text-[#2B2D94] font-bold hover:text-[#5C53E9]">Services</a>
+      </section>
+    </nav>
+  </header>
+
+  <main class="mx-20">
+    <!-- spaceship section -->
+    <section class="text-5xl font-bold py-20 text-[#2B2D94]">
+        Spaceship
+    </section>
+    <!-- render 4 different cards -->
+    <section class="flex justify-between">
+        <!-- Card 1 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshiph1.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshipd1.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/spaceshipd1.png');"></div>
+       </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshiph2.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshipd2.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/spaceshipd2.png');"></div>
+       </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshiph3.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshipd3.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/spaceshipd3.png');"></div>
+       </div>
+        <!-- Card 4 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshiph4.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/spaceshipd4.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/spaceshipd4.png');"></div>
+       </div>
+    </section>
+
+    <!-- suit section -->
+    <section class="text-5xl font-bold py-20 text-[#2B2D94]">
+        Suit
+    </section>
+    <!-- render 4 different cards -->
+    <section class="flex justify-between">
+        <!-- Card 1 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suith1.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suitd1.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/suitd1.png');"></div>
+       </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suith2.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suitd2.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/suitd2.png');"></div>
+       </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suith3.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suitd3.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/suitd3.png');"></div>
+       </div>
+        <!-- Card 4 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suith4.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/suitd4.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/suitd4.png');"></div>
+       </div>
+    </section>
+    <!-- planet section -->
+    <section class="text-5xl font-bold py-20 text-[#2B2D94]">
+        Planet
+    </section>
+    <!-- render 4 different cards -->
+    <section class="flex justify-between">
+        <!-- Card 1 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planeth1.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planetd1.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/planetd1.png');"></div>
+       </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planeth2.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planetd2.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/planetd2.png');"></div>
+       </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planeth3.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planetd3.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/planetd3.png');"></div>
+       </div>
+        <!-- Card 4 -->
+        <div class="bg-gray-200 rounded-lg overflow-hidden w-80 relative hover:bg-gray-300" 
+        onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planeth4.png)'" 
+        onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/planetd4.png)'">
+           <!-- Background Image -->
+           <div class="bg-cover bg-center h-96" style="background-image: url('/asset/planetd4.png');"></div>
+       </div>
+    </section>
+  </main>
+
+  <footer class="bg-indigo-800 py-8 mx-20 mt-8 rounded-lg">
+    <div class="container px-20 flex justify-evenly gap-16">
+        <!-- Section 1 -->
+        <div class="w-1/4">
+            <h1 class="text-white text-lg mb-4">Exploring More Universes with K.Galaxy</h1>
+            <div class="text-gray-300 text-sm">
+                <p>
+                  Hi! My name is Pol Sokkhann and i’m an expert in Exploring new Galaxy.
+                   Experience for 30 exploring to other universes and
+                    greeting a lot of aliens.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Section 2 -->
+        <div class="w-1/4 ">
+          <h1 class="text-white text-lg mb-4">Consult</h1>
+          <div class="text-gray-300 text-sm flex justify-center flex-col">
+            <p>About</p>
+            <p>Carrer</p>
+            <p>FAQs</p>
+            <p>Team</p>
+        </div>
+        </div>
+        
+        <!-- Section 3 -->
+        <div class="w-1/4 ">
+          <h1 class="text-white text-lg mb-4">Consult</h1>
+          <div class="text-gray-300 text-sm flex justify-center flex-col">
+            <p>Universe</p>
+            <p>Galaxy</p>
+            <p>Planet</p>
+            <p>Star</p>
+        </div>
+        </div>
+        
+        <!-- Section 4 -->
+        <div class="w-1/4">
+          <h1 class="text-white text-lg mb-4">Subscribe</h1>
+          <div class="grid grid-cols-1 gap-4">
+            <!-- Name Input -->
+            <div>
+                <input type="text" placeholder="Name" class="border bg-indigo-800 border-pink-500 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-pink-700 border-2 placeholder-pink-500">
+            </div>
+            
+            <!-- Email Input -->
+            <div>
+                <input type="email" placeholder="Email" class="border bg-indigo-800 border-pink-500 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-pink-700 border-2 placeholder-pink-500">
+            </div>
+            
+            <!-- Subscribe Button -->
+            <div>
+                <button class="bg-pink-500 text-white rounded-lg px-4 py-2 w-full focus:outline-none focus:bg-pink-700">Subscribe</button>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</footer> 
+
+</body>
+</html>

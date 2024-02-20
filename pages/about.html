@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <!-- link to tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="bg-white mt-8 mx-20 flex justify-between items-center">
+      <!-- Left Section -->
+      <section class="flex items-center">
+          <!-- Logo -->
+          <div class="mr-4">
+              <img src="logo.png" alt="Logo" class="h-8">
+          </div>
+          <!-- Search Area -->
+          <div>
+              <input type="text" placeholder="Search" class="px-4 py-2 bg-white rounded-lg focus:outline-none focus:bg-gray-100 border border-blue-900 focus:border-pink-700 placeholder-blue-900 focus:placeholder-pink-700 border-2">
+          </div>
+      </section>
+      
+      <!-- Right Section -->
+      <section class="flex items-center">
+          <!-- Home Link -->
+          <a href="../index.html" class="text-[#2B2D94] hover:text-[#5C53E9] mr-4">Home</a>
+          <!-- About Link -->
+          <a href="#" class="text-[#2B2D94] font-bold hover:text-[#5C53E9] mr-4">About</a>
+          <!-- Services Link -->
+          <a href="/pages/service.html" class="text-[#2B2D94] hover:text-[#5C53E9]">Services</a>
+      </section>
+    </nav>
+  </header>
+
+  <main class="mx-20">
+    <!-- hero section about us -->
+    <section class="relative p-8 mt-12 h-screen bg-cover bg-center rounded-lg" style="background-image: url('/asset/bghero2.png');">
+        <div class="relative z-20 py-[20%] px-8">
+          <section class="text-5xl font-bold mb-4 text-[#EE2EB8]">
+            <p>
+                About Us
+            </p>
+          </section>
+          <p class="text-white mb-8">
+            Hello this is our Space you guys can come to join our space <br>
+            willing to see you guys Hello this is our Space you guys can <br>
+            come to join our space willing to see you guys
+          </p>
+        </div>
+    </section>
+
+    <!-- telling about company section -->
+    <section class="relative p-8 mt-24 h-screen bg-cover bg-center rounded-lg flex justify-end items-center" 
+         style="background-image: url('/asset/bgherod3.png');"
+         onmouseout="this.style.backgroundImage='url(/asset/bgherod3.png)'">
+      <!-- Original content -->
+      <div class="relative z-20 py-[20%] px-8">
+          <section class="text-5xl font-bold mb-4 text-indigo-800">
+              <p>About Our Company</p>
+          </section>
+          <p class="text-white mb-8">
+              Hello this is our Space you guys can come to join our space <br>
+              willing to see you guys Hello this is our Space you guys can <br>
+              come to join our space willing to see you guys
+          </p>
+      </div>
+    </section>
+
+    <!-- telling members section -->
+    <section class="text-5xl font-bold pt-20 text-[#2B2D94] mb-8">
+        Our Team Members
+    </section>
+
+    <!-- member card -->
+    <!-- 3 members -->
+    <section class="flex justify-between">
+      <!-- Card 1 -->
+      <div class="bg-gray-200 rounded-lg overflow-hidden h-96 w-1/4 relative my-8" 
+       onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/memberh1.png)'" 
+       onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/memberd1.png)'">
+          <!-- Circular Image -->
+          <div class="absolute top-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-32 h-32 overflow-hidden">
+              <img src="/asset/member3.png" alt="Circular Image" class="w-full h-full object-cover">
+          </div>
+          <!-- Text -->
+          <div class="absolute top-24 left-1/2 transform -translate-x-1/2 translate-y-1/2 text-center">
+              <p class="text-pink-600 text-xl font-semibold">Assistance</p>
+              <p class="text-white">Sokkhann</p>
+          </div>
+          <!-- Background Image -->
+          <div class="bg-cover bg-center h-96" style="background-image: url('/asset/memberd1.png');"></div>
+      </div>
+  
+  
+      <!-- Card 2 -->
+      <div class="bg-gray-200 rounded-lg overflow-hidden h-96 w-1/4 relative my-8" 
+      onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/memberd2.png)'" 
+      onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/memberh2.png)'">
+         <!-- Circular Image -->
+         <div class="absolute top-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-40 h-40 overflow-hidden">
+             <img src="/asset/member2.png" alt="Circular Image" class="w-full h-full object-cover">
+         </div>
+         <!-- Text -->
+         <div class="absolute top-24 left-1/2 transform -translate-x-1/2 translate-y-1/2 text-center">
+          <p class="text-pink-600 text-xl font-semibold">CEO</p>
+          <p class="text-white">Sokkhann</p>
+         </div>
+         <!-- Background Image -->
+         <div class="bg-cover bg-center h-96" style="background-image: url('/asset/memberh2.png');"></div>
+     </div>
+  
+      <!-- Card 3 -->
+      <div class="bg-gray-200 rounded-lg overflow-hidden h-96 w-1/4 relative my-8" 
+      onmouseover="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/memberd3.png)'" 
+      onmouseout="this.querySelector('.bg-cover').style.backgroundImage='url(/asset/memberh3.png)'">
+         <!-- Circular Image -->
+         <div class="absolute top-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-32 h-32 overflow-hidden">
+             <img src="/asset/member3.png" alt="Circular Image" class="w-full h-full object-cover">
+         </div>
+         <!-- Text -->
+         <div class="absolute top-24 left-1/2 transform -translate-x-1/2 translate-y-1/2 text-center">
+          <p class="text-pink-600 text-xl font-semibold">Assistance</p>
+          <p class="text-white">Sokkhann</p>
+         </div>
+         <!-- Background Image -->
+         <div class="bg-cover bg-center h-96" style="background-image: url('/asset/memberh3.png');"></div>
+     </div>
+  </section>
+  </main>
+
+  <footer class="bg-indigo-800 py-8 mx-20 mt-8 rounded-lg">
+    <div class="container px-20 flex justify-evenly gap-16">
+        <!-- Section 1 -->
+        <div class="w-1/4">
+            <h1 class="text-white text-lg mb-4">Exploring More Universes with K.Galaxy</h1>
+            <div class="text-gray-300 text-sm">
+                <p>
+                  Hi! My name is Pol Sokkhann and i’m an expert in Exploring new Galaxy.
+                   Experience for 30 exploring to other universes and
+                    greeting a lot of aliens.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Section 2 -->
+        <div class="w-1/4 ">
+          <h1 class="text-white text-lg mb-4">Consult</h1>
+          <div class="text-gray-300 text-sm flex justify-center flex-col">
+            <p>About</p>
+            <p>Carrer</p>
+            <p>FAQs</p>
+            <p>Team</p>
+        </div>
+        </div>
+        
+        <!-- Section 3 -->
+        <div class="w-1/4 ">
+          <h1 class="text-white text-lg mb-4">Consult</h1>
+          <div class="text-gray-300 text-sm flex justify-center flex-col">
+            <p>Universe</p>
+            <p>Galaxy</p>
+            <p>Planet</p>
+            <p>Star</p>
+        </div>
+        </div>
+        
+        <!-- Section 4 -->
+        <div class="w-1/4">
+          <h1 class="text-white text-lg mb-4">Subscribe</h1>
+          <div class="grid grid-cols-1 gap-4">
+            <!-- Name Input -->
+            <div>
+                <input type="text" placeholder="Name" class="border bg-indigo-800 border-pink-500 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-pink-700 border-2 placeholder-pink-500">
+            </div>
+            
+            <!-- Email Input -->
+            <div>
+                <input type="email" placeholder="Email" class="border bg-indigo-800 border-pink-500 rounded-lg px-4 py-2 w-full focus:outline-none focus:border-pink-700 border-2 placeholder-pink-500">
+            </div>
+            
+            <!-- Subscribe Button -->
+            <div>
+                <button class="bg-pink-500 text-white rounded-lg px-4 py-2 w-full focus:outline-none focus:bg-pink-700">Subscribe</button>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</footer> 
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+.group {
+    @apply bg-white shadow-md;
+  }
+  
+  img {
+    @apply object-cover object-center w-full h-full;
+  }
+  
